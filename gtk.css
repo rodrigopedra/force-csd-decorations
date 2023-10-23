@@ -1,0 +1,47 @@
+@import 'colors.css';
+
+window,
+window.ssd,
+window.csd,
+window.solid-csd {
+    margin: -12px;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+
+    min-width: 400px;
+    min-height: 300px;
+}
+
+window.maximized,
+window.fullscreen,
+window.tiled,
+window.tiled-top,
+window.tiled-left,
+window.tiled-bottom,
+window.tiled-right,
+window.ssd.maximized,
+window.ssd.fullscreen,
+window.ssd.tiled,
+window.ssd.tiled-top,
+window.ssd.tiled-left,
+window.ssd.tiled-bottom,
+window.ssd.tiled-right,
+window.csd.maximized,
+window.csd.fullscreen,
+window.csd.tiled,
+window.csd.tiled-top,
+window.csd.tiled-left,
+window.csd.tiled-bottom,
+window.csd.tiled-right,
+window.solid-csd.maximized,
+window.solid-csd.fullscreen,
+window.solid-csd.tiled,
+window.solid-csd.tiled-top,
+window.solid-csd.tiled-left,
+window.solid-csd.tiled-bottom,
+window.solid-csd.tiled-right {
+    margin: 0px;
+}

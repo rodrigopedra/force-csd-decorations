@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Name": "Force Decorations on CSD Windows",
+        "Description": "Force Decorations on CSD Windows",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "rodrigo.pedra@gmail.com",
+                "Name": "Rodrigo Pedra Brum"
+            }
+        ],
+        "Id": "force-csd-decorations",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0",
+        "License": "MIT",
+        "Website": "https://github.com/rodrigopedra/force-csd-decorations"
+    },
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
