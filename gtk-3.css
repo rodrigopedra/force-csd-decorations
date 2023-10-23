@@ -45,3 +45,23 @@ window.solid-csd.tiled-bottom,
 window.solid-csd.tiled-right {
     margin: 0px;
 }
+
+.solid-csd headerbar .title {
+    font-size: 0;
+}
+
+.window-frame {
+    margin: 0;
+    box-shadow: 0 0 0 0;
+}
+
+window decoration {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0 0 0 0;
+}
+
+* {
+    text-shadow: none;
+}

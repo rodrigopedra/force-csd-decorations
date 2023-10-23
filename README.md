@@ -74,7 +74,10 @@ For applications based on GTK+ 3 and 4, you might need to tweak your `gtk.css`
 files to remove shadows, borders and a margin it adds around each window 
 to allow resizing a window with a mouse cursor.
 
-There is a sample `gtk.css` file here: [`gtk.css`](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/gtk.css) 
+There are two samples `gtk.css` files: 
+
+- One for [GTK+ 3](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/gtk-3.css) 
+- One for [GTK+ 4](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/gtk-4.css) 
 
 > **IMPORTANT:** this is a sample file, you will need to modify your own 
 > installed `gtk.css` files. 
@@ -84,11 +87,11 @@ Usually these files are located at:
 - `~/.config/gtk-3.0/gtk.css`
 - `~/.config/gtk-4.0/gtk.css`
 
-> **DO NOT** copy and paste the sample file provided over your current `gtk.css` files.
+> **DO NOT** copy and paste the samples file provided over your current `gtk.css` files.
 
 Doing this might break any customization applied by a GTK+ Theme you might be using.
 
-Instead, compare your current `gtk.css` files' contents to the provided sample file.
+Instead, compare your current `gtk.css` files' contents to the provided sample files.
 
 > **Note:** the tweaks on the `gtk.css` might not work well for applications using other 
 > GTK+ based toolkits, such as applications built with the elementary OS' toolkit.  
