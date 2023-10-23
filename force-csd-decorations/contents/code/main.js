@@ -36,7 +36,6 @@
                 logClient(client, 'added');
 
                 pending.add(client);
-                client.noBorder = false;
                 client.windowShown.connect(assessClientDecoration);
             }
 
@@ -47,7 +46,6 @@
             if (pending.has(client)) {
                 logClient(client, 'activating...');
 
-                client.noBorder = false;
                 client.setMaximize(true, true);
             }
         };
@@ -67,7 +65,6 @@
 
                 pending.remove(client);
                 client.windowShown.disconnect(assessClientDecoration);
-                client.noBorder = false;
                 client.setMaximize(false, false);
             }
         }
