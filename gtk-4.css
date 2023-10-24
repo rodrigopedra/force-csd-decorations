@@ -1,67 +1,58 @@
-@import 'colors.css';
-
-window,
-window.ssd,
-window.csd,
-window.solid-csd {
-    margin: -12px;
-    padding: 0;
-    border: none;
-    border-radius: 0 0 0 0;
-    box-shadow: 0 0 0 0;
-    outline: none;
-
-    min-width: 400px;
-    min-height: 300px;
-}
-
-window.maximized,
-window.fullscreen,
-window.tiled,
-window.tiled-top,
-window.tiled-left,
-window.tiled-bottom,
-window.tiled-right,
-window.ssd.maximized,
-window.ssd.fullscreen,
-window.ssd.tiled,
-window.ssd.tiled-top,
-window.ssd.tiled-left,
-window.ssd.tiled-bottom,
-window.ssd.tiled-right,
-window.csd.maximized,
-window.csd.fullscreen,
-window.csd.tiled,
-window.csd.tiled-top,
-window.csd.tiled-left,
-window.csd.tiled-bottom,
-window.csd.tiled-right,
-window.solid-csd.maximized,
-window.solid-csd.fullscreen,
-window.solid-csd.tiled,
-window.solid-csd.tiled-top,
-window.solid-csd.tiled-left,
-window.solid-csd.tiled-bottom,
-window.solid-csd.tiled-right {
-    margin: 0;
-}
-
-.solid-csd headerbar .title {
-    font-size: 0;
-}
-
-.window-frame {
-    margin: 0;
-    box-shadow: 0 0 0 0;
-}
-
-window decoration {
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-radius: 0 0 0 0;
-}
-
 * {
-    text-shadow: none;
+  text-shadow: none;
+}
+
+window.background.ssd, window.background.solid-csd, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+  margin: 0;
+  padding: 0px;
+  border: 0px solid transparent;
+  border-image-width: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: 0px solid transparent;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+window.background.ssd.maximized, window.background.ssd.fullscreen, window.background.ssd.tiled, window.background.ssd.tiled-top, window.background.ssd.tiled-bottom, window.background.ssd.tiled-left, window.background.ssd.tiled-right, window.background.solid-csd.maximized, window.background.solid-csd.fullscreen, window.background.solid-csd.tiled, window.background.solid-csd.tiled-top, window.background.solid-csd.tiled-bottom, window.background.solid-csd.tiled-left, window.background.solid-csd.tiled-right, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-right {
+  margin: 0;
+  padding: 0px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: 0px solid transparent;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+window.background.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+  margin: -12px;
+}
+
+window.background.solid-csd headerbar.titlebar,
+window.background.solid-csd paned.titlebar,
+window.background.solid-csd .titlebar,
+window.background.solid-csd paned.titlebar headerbar, window.background.solid-csd.maximized headerbar.titlebar,
+window.background.solid-csd.maximized paned.titlebar,
+window.background.solid-csd.maximized .titlebar,
+window.background.solid-csd.maximized paned.titlebar headerbar, window.background.solid-csd.fullscreen headerbar.titlebar,
+window.background.solid-csd.fullscreen paned.titlebar,
+window.background.solid-csd.fullscreen .titlebar,
+window.background.solid-csd.fullscreen paned.titlebar headerbar, window.background.solid-csd.tiled headerbar.titlebar,
+window.background.solid-csd.tiled paned.titlebar,
+window.background.solid-csd.tiled .titlebar,
+window.background.solid-csd.tiled paned.titlebar headerbar, window.background.solid-csd.tiled-top headerbar.titlebar,
+window.background.solid-csd.tiled-top paned.titlebar,
+window.background.solid-csd.tiled-top .titlebar,
+window.background.solid-csd.tiled-top paned.titlebar headerbar, window.background.solid-csd.tiled-bottom headerbar.titlebar,
+window.background.solid-csd.tiled-bottom paned.titlebar,
+window.background.solid-csd.tiled-bottom .titlebar,
+window.background.solid-csd.tiled-bottom paned.titlebar headerbar, window.background.solid-csd.tiled-left headerbar.titlebar,
+window.background.solid-csd.tiled-left paned.titlebar,
+window.background.solid-csd.tiled-left .titlebar,
+window.background.solid-csd.tiled-left paned.titlebar headerbar, window.background.solid-csd.tiled-right headerbar.titlebar,
+window.background.solid-csd.tiled-right paned.titlebar,
+window.background.solid-csd.tiled-right .titlebar,
+window.background.solid-csd.tiled-right paned.titlebar headerbar {
+  border-radius: 0px 0px 0px 0px;
 }

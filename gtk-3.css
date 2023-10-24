@@ -1,67 +1,34 @@
-@import 'colors.css';
-
-window,
-window.ssd,
-window.csd,
-window.solid-csd {
-    margin: -12px;
-    padding: 0px;
-    border: none;
-    border-radius: 0px;
-    box-shadow: none;
-    outline: none;
-
-    min-width: 400px;
-    min-height: 300px;
+/**********************
+ * Window Decorations *
+ *********************/
+window, window.maximized, window.fullscreen, window.tiled, window.ssd, window.ssd.maximized, window.ssd.fullscreen, window.ssd.tiled, window.solid-csd, window.solid-csd.maximized, window.solid-csd.fullscreen, window.solid-csd.tiled, window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized, window.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
 }
 
-window.maximized,
-window.fullscreen,
-window.tiled,
-window.tiled-top,
-window.tiled-left,
-window.tiled-bottom,
-window.tiled-right,
-window.ssd.maximized,
-window.ssd.fullscreen,
-window.ssd.tiled,
-window.ssd.tiled-top,
-window.ssd.tiled-left,
-window.ssd.tiled-bottom,
-window.ssd.tiled-right,
-window.csd.maximized,
-window.csd.fullscreen,
-window.csd.tiled,
-window.csd.tiled-top,
-window.csd.tiled-left,
-window.csd.tiled-bottom,
-window.csd.tiled-right,
-window.solid-csd.maximized,
-window.solid-csd.fullscreen,
-window.solid-csd.tiled,
-window.solid-csd.tiled-top,
-window.solid-csd.tiled-left,
-window.solid-csd.tiled-bottom,
-window.solid-csd.tiled-right {
-    margin: 0px;
+window decoration, window.maximized decoration, window.fullscreen decoration, window.tiled decoration, window.ssd decoration, window.ssd.maximized decoration, window.ssd.fullscreen decoration, window.ssd.tiled decoration, window.solid-csd decoration, window.solid-csd.maximized decoration, window.solid-csd.fullscreen decoration, window.solid-csd.tiled decoration, window.csd:not(.popup):not(.tooltip):not(.message-dialog) decoration, window.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized decoration, window.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen decoration, window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled decoration {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
 }
 
-.solid-csd headerbar .title {
-    font-size: 0;
-}
-
-.window-frame {
-    margin: 0;
-    box-shadow: 0 0 0 0;
-}
-
-window decoration {
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-radius: 0 0 0 0;
-}
-
-* {
-    text-shadow: none;
+window.solid-csd headerbar.titlebar,
+window.solid-csd paned.titlebar,
+window.solid-csd .titlebar,
+window.solid-csd paned.titlebar headerbar, window.solid-csd.maximized headerbar.titlebar,
+window.solid-csd.maximized paned.titlebar,
+window.solid-csd.maximized .titlebar,
+window.solid-csd.maximized paned.titlebar headerbar, window.solid-csd.fullscreen headerbar.titlebar,
+window.solid-csd.fullscreen paned.titlebar,
+window.solid-csd.fullscreen .titlebar,
+window.solid-csd.fullscreen paned.titlebar headerbar, window.solid-csd.tiled headerbar.titlebar,
+window.solid-csd.tiled paned.titlebar,
+window.solid-csd.tiled .titlebar,
+window.solid-csd.tiled paned.titlebar headerbar {
+  border-radius: 0px;
 }

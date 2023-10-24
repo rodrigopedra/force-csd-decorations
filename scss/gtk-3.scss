@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/**********************
+ * Window Decorations *
+ *********************/
+
+window {
+    &,
+    &.ssd,
+    &.solid-csd,
+    &.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+        &,
+        &.maximized,
+        &.fullscreen,
+        &.tiled {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            border-radius: 0px;
+            box-shadow: none;
+
+            decoration {
+                margin: 0px;
+                padding: 0px;
+                border: none;
+                border-radius: 0px;
+                box-shadow: none;
+            }
+        }
+    }
+
+    &.solid-csd {
+        &,
+        &.maximized,
+        &.fullscreen,
+        &.tiled {
+            headerbar.titlebar,
+            paned.titlebar,
+            .titlebar,
+            paned.titlebar headerbar {
+                border-radius: 0px;
+            }
+        }
+    }
+}
