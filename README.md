@@ -50,8 +50,8 @@ KWin Scripts screen.
 
 If it is not yet enabled, mark the checkbox and click the "Apply" button.
 
-There is a single configuration: "Output debug info to journal", when enabled, some debug info will 
-be logged into your user's journal.
+There is a single configuration: "Output debug info to journal", when enabled, 
+some debug info will be logged into your user's journal.
 
 You can filter the journal entries with this command from 
 the [KWin Scripting Tutorial](https://develop.kde.org/docs/plasma/kwin/#output):
@@ -122,8 +122,8 @@ flatpak override --system --filesystem=xdg-config/gtk-3.0:ro
 - Instead of using `~/.config/`, the paths uses `xdg-config` as their prefix
 - Flatpak automatically translates the `xdg-config` prefix to 
   the current user's `~/.config` folder
-- From what I could understand, during my research, having these themes located there 
-  is a freedesktop standard
+- From what I could understand, during my research, having these themes located 
+  there is a freedesktop standard
 - If your GTK+ Themes are placed elsewhere, you might need to tweak these settings 
 
 
