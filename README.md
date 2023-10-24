@@ -96,6 +96,10 @@ Instead, compare your current `gtk.css` files' contents to the provided sample f
 > **Note:** the tweaks on the `gtk.css` might not work well for applications using other 
 > GTK+ based toolkits, such as applications built with the elementary OS' toolkit.  
 
+Additionally, if your application started maximized, this script might fail 
+to apply window decorations on the first run.
+
+Simply restoring and remaximizing it, should make window decorations available. 
 
 ## Flatpak
 
