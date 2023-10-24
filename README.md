@@ -149,6 +149,38 @@ Please refer to GTK+ documentation to learn about the available options for this
 > from GTK+ applications' Header Bars.
 
 
+## Remove Header Bar's buttons for Breeze GTK+ themes
+
+KDE has a daemon that syncs Breeze configuration to its GTK+ theme, rendering changing 
+the `gtk-decoration-layout=` unpractical.
+
+If you are running Plasma X11 session, you can add this key to your `~/.xsettingsd` file
+
+```
+Gtk/DecorationLayout ""
+```
+
+If you don't have this file, it is safe to create one.
+
+This will remove all window related buttons from the applications using GTK+'s Header Bar.
+
+If you want to keep some of the buttons, such as the close button, refer 
+to GTK+ documentation linked above to check for available options. 
+
+To make the changes available, you'll need to restart your user session (or reboot). 
+
+> **Note** I don't know how to force this settings on a Plasma Wayland Session.
+
+
+## Screenshots
+
+![Shortwave, Gaphor, and GNOME Web with decorated windows, including GNOME Web's preference's panel](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/art/decorated-1.png)
+
+---
+
+![More GTK+ apps with decorated windows](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/art/decorated-2.png)
+
+
 ## License
 
 This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
