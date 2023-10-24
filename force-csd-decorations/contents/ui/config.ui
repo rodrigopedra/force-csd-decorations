@@ -19,13 +19,13 @@
     <property name="windowTitle">
       <string>Force Decorations on CSD Windows</string>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout_1">
       <item>
         <widget class="QGroupBox" name="groupOptions">
           <property name="title">
             <string>Debug</string>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
               <widget class="QCheckBox" name="kcfg_isDebugging">
                 <property name="text">
