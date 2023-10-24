@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-  <class>ForceBlurConfigForm</class>
-  <widget class="QWidget" name="ForceBlurConfigForm">
+  <class>ForceCSDDecorationsConfigForm</class>
+  <widget class="QWidget" name="ForceCSDDecorationsConfigForm">
     <property name="geometry">
       <rect>
         <x>0</x>
         <y>0</y>
         <width>400</width>
-        <height>400</height>
+        <height>250</height>
       </rect>
     </property>
     <property name="minimumSize">
       <size>
         <width>400</width>
-        <height>350</height>
+        <height>250</height>
       </size>
     </property>
     <property name="windowTitle">
@@ -40,7 +40,5 @@
   </widget>
   <resources/>
   <connections/>
-  <buttongroups>
-    <buttongroup name="matchTypeGroup"/>
-  </buttongroups>
+  <buttongroups />
 </ui>
