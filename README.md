@@ -174,11 +174,11 @@ To make the changes available, you'll need to restart your user session (or rebo
 
 ## Screenshots
 
-![Shortwave, Gaphor, and GNOME Web with decorated windows, including GNOME Web's preference's panel](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/art/decorated-1.png)
+![Shortwave, Gaphor, and GNOME Web with decorated windows, including GNOME Web's preference's panel](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/art/decorated-1.png)
 
 ---
 
-![More GTK+ apps with decorated windows](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/art/decorated-2.png)
+![More GTK+ apps with decorated windows](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/art/decorated-2.png)
 
 
 ## License
