@@ -36,7 +36,7 @@
                 logClient(client, 'added');
 
                 pending.add(client);
-                client.windowShown.connect(assessClientDecoration);
+                client.windowShown.connect(activateClient);
             }
 
             return clients.has(client);
@@ -55,16 +55,16 @@
                 logClient(client, 'removed');
 
                 pending.remove(client);
-                client.windowShown.disconnect(assessClientDecoration);
+                client.windowShown.disconnect(activateClient);
             }
         };
 
-        function assessClientDecoration(client) {
+        function activateClient(client) {
             if (pending.has(client)) {
                 logClient(client, 'activated');
 
                 pending.remove(client);
-                client.windowShown.disconnect(assessClientDecoration);
+                client.windowShown.disconnect(activateClient);
                 client.setMaximize(false, false);
             }
         }
