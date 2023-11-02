@@ -74,7 +74,7 @@ For applications based on GTK+ 3 and 4, you might need to tweak your `gtk.css`
 files to remove shadows, borders and a margin it adds around each window 
 to allow resizing a window with a mouse cursor.
 
-There are two samples `gtk.css` files: 
+There are two samples `gtk.css` files, both are based on KDE's Breeze GTK+ themes: 
 
 - One for [GTK+ 3](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/gtk-3.css) 
 - One for [GTK+ 4](https://raw.githubusercontent.com/rodrigopedra/force-csd-decorations/master/gtk-4.css) 
@@ -170,6 +170,9 @@ This will remove all window related buttons from the applications using GTK+'s H
 
 If you want to keep some of the buttons, such as the close button, refer 
 to GTK+ documentation linked above to check for available options. 
+
+You may also want to check if KDE created a `~/.config/xsettingsd/xsettingsd.conf`, 
+and tweak those same settings on this file.
 
 To make the changes available, you'll need to restart your user session (or reboot). 
 
