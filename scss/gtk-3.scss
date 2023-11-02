@@ -1,44 +1,44 @@
 @charset "UTF-8";
 
-/**********************
- * Window Decorations *
- *********************/
+* {
+    text-shadow: none;
+    opacity: 1;
+}
 
-window {
+window,
+dialog {
     &,
+    &.background,
+    &.unified,
     &.ssd,
     &.solid-csd,
-    &.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+    &.csd {
         &,
-        &.maximized,
-        &.fullscreen,
-        &.tiled {
-            margin: 0px;
-            padding: 0px;
-            border: none;
-            border-radius: 0px;
-            box-shadow: none;
-
+        .maximized &,
+        .fullscreen &,
+        .tiled & {
+            &,
             decoration {
-                margin: 0px;
-                padding: 0px;
-                border: none;
-                border-radius: 0px;
+                margin: 0;
+                padding: 0;
+                border: 0 solid transparent;
+                border-image-width: 0;
+                border-radius: 0;
                 box-shadow: none;
-            }
-        }
-    }
+                outline: 0 solid transparent;
+                outline-offset: 0;
 
-    &.solid-csd {
-        &,
-        &.maximized,
-        &.fullscreen,
-        &.tiled {
+                transition-delay: 0s;
+                transition-duration: 0s;
+                transition-property: none;
+                transition-timing-function: linear;
+            }
+
             headerbar.titlebar,
             paned.titlebar,
             .titlebar,
             paned.titlebar headerbar {
-                border-radius: 0px;
+                border-radius: 0;
             }
         }
     }

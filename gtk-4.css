@@ -1,58 +1,174 @@
 * {
   text-shadow: none;
+  opacity: 1;
 }
 
-window.background.ssd, window.background.solid-csd, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+window, .maximized window, window.maximized, window.fullscreen, .fullscreen window, window.tiled, .tiled window, window.tiled-top, .tiled-top window, window.tiled-bottom, .tiled-bottom window, window.tiled-left, .tiled-left window, window.tiled-right, .tiled-right window, window.unified, .maximized window.unified, window.unified.maximized, window.unified.fullscreen, .fullscreen window.unified, window.unified.tiled, .tiled window.unified, window.unified.tiled-top, .tiled-top window.unified, window.unified.tiled-bottom, .tiled-bottom window.unified, window.unified.tiled-left, .tiled-left window.unified, window.unified.tiled-right, .tiled-right window.unified, .unified window, .maximized .unified window, .unified window.maximized, .unified window.fullscreen, .fullscreen .unified window, .unified window.tiled, .tiled .unified window, .unified window.tiled-top, .tiled-top .unified window, .unified window.tiled-bottom, .tiled-bottom .unified window, .unified window.tiled-left, .tiled-left .unified window, .unified window.tiled-right, .tiled-right .unified window, window.ssd, .maximized window.ssd, window.ssd.maximized, window.ssd.fullscreen, .fullscreen window.ssd, window.ssd.tiled, .tiled window.ssd, window.ssd.tiled-top, .tiled-top window.ssd, window.ssd.tiled-bottom, .tiled-bottom window.ssd, window.ssd.tiled-left, .tiled-left window.ssd, window.ssd.tiled-right, .tiled-right window.ssd, .ssd window, .maximized .ssd window, .ssd window.maximized, .ssd window.fullscreen, .fullscreen .ssd window, .ssd window.tiled, .tiled .ssd window, .ssd window.tiled-top, .tiled-top .ssd window, .ssd window.tiled-bottom, .tiled-bottom .ssd window, .ssd window.tiled-left, .tiled-left .ssd window, .ssd window.tiled-right, .tiled-right .ssd window, window.solid-csd, .maximized window.solid-csd, window.solid-csd.maximized, window.solid-csd.fullscreen, .fullscreen window.solid-csd, window.solid-csd.tiled, .tiled window.solid-csd, window.solid-csd.tiled-top, .tiled-top window.solid-csd, window.solid-csd.tiled-bottom, .tiled-bottom window.solid-csd, window.solid-csd.tiled-left, .tiled-left window.solid-csd, window.solid-csd.tiled-right, .tiled-right window.solid-csd, .solid-csd window, .maximized .solid-csd window, .solid-csd window.maximized, .solid-csd window.fullscreen, .fullscreen .solid-csd window, .solid-csd window.tiled, .tiled .solid-csd window, .solid-csd window.tiled-top, .tiled-top .solid-csd window, .solid-csd window.tiled-bottom, .tiled-bottom .solid-csd window, .solid-csd window.tiled-left, .tiled-left .solid-csd window, .solid-csd window.tiled-right, .tiled-right .solid-csd window, .csd window:not(.popup):not(.tooltip):not(.message-dialog), .maximized .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).maximized, .csd window:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, .fullscreen .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).tiled, .tiled .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, .tiled-top .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, .tiled-bottom .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, .tiled-left .csd window:not(.popup):not(.tooltip):not(.message-dialog), .csd window:not(.popup):not(.tooltip):not(.message-dialog).tiled-right, .tiled-right .csd window:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog), .maximized window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized, window.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, .fullscreen window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled, .tiled window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, .tiled-top window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, .tiled-bottom window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, .tiled-left window.csd:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-right, .tiled-right window.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog, .maximized dialog,
+dialog.maximized,
+dialog.fullscreen, .fullscreen dialog,
+dialog.tiled, .tiled dialog,
+dialog.tiled-top, .tiled-top dialog,
+dialog.tiled-bottom, .tiled-bottom dialog,
+dialog.tiled-left, .tiled-left dialog,
+dialog.tiled-right, .tiled-right dialog,
+dialog.unified, .maximized dialog.unified,
+dialog.unified.maximized,
+dialog.unified.fullscreen, .fullscreen dialog.unified,
+dialog.unified.tiled, .tiled dialog.unified,
+dialog.unified.tiled-top, .tiled-top dialog.unified,
+dialog.unified.tiled-bottom, .tiled-bottom dialog.unified,
+dialog.unified.tiled-left, .tiled-left dialog.unified,
+dialog.unified.tiled-right, .tiled-right dialog.unified, .unified dialog, .maximized .unified dialog, .unified dialog.maximized, .unified dialog.fullscreen, .fullscreen .unified dialog, .unified dialog.tiled, .tiled .unified dialog, .unified dialog.tiled-top, .tiled-top .unified dialog, .unified dialog.tiled-bottom, .tiled-bottom .unified dialog, .unified dialog.tiled-left, .tiled-left .unified dialog, .unified dialog.tiled-right, .tiled-right .unified dialog,
+dialog.ssd, .maximized dialog.ssd,
+dialog.ssd.maximized,
+dialog.ssd.fullscreen, .fullscreen dialog.ssd,
+dialog.ssd.tiled, .tiled dialog.ssd,
+dialog.ssd.tiled-top, .tiled-top dialog.ssd,
+dialog.ssd.tiled-bottom, .tiled-bottom dialog.ssd,
+dialog.ssd.tiled-left, .tiled-left dialog.ssd,
+dialog.ssd.tiled-right, .tiled-right dialog.ssd, .ssd dialog, .maximized .ssd dialog, .ssd dialog.maximized, .ssd dialog.fullscreen, .fullscreen .ssd dialog, .ssd dialog.tiled, .tiled .ssd dialog, .ssd dialog.tiled-top, .tiled-top .ssd dialog, .ssd dialog.tiled-bottom, .tiled-bottom .ssd dialog, .ssd dialog.tiled-left, .tiled-left .ssd dialog, .ssd dialog.tiled-right, .tiled-right .ssd dialog,
+dialog.solid-csd, .maximized dialog.solid-csd,
+dialog.solid-csd.maximized,
+dialog.solid-csd.fullscreen, .fullscreen dialog.solid-csd,
+dialog.solid-csd.tiled, .tiled dialog.solid-csd,
+dialog.solid-csd.tiled-top, .tiled-top dialog.solid-csd,
+dialog.solid-csd.tiled-bottom, .tiled-bottom dialog.solid-csd,
+dialog.solid-csd.tiled-left, .tiled-left dialog.solid-csd,
+dialog.solid-csd.tiled-right, .tiled-right dialog.solid-csd, .solid-csd dialog, .maximized .solid-csd dialog, .solid-csd dialog.maximized, .solid-csd dialog.fullscreen, .fullscreen .solid-csd dialog, .solid-csd dialog.tiled, .tiled .solid-csd dialog, .solid-csd dialog.tiled-top, .tiled-top .solid-csd dialog, .solid-csd dialog.tiled-bottom, .tiled-bottom .solid-csd dialog, .solid-csd dialog.tiled-left, .tiled-left .solid-csd dialog, .solid-csd dialog.tiled-right, .tiled-right .solid-csd dialog, .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .maximized .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).maximized, .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, .fullscreen .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).tiled, .tiled .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, .tiled-top .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, .tiled-bottom .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, .tiled-left .csd dialog:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog).tiled-right, .tiled-right .csd dialog:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog), .maximized dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized,
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, .fullscreen dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled, .tiled dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, .tiled-top dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, .tiled-bottom dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, .tiled-left dialog.csd:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-right, .tiled-right dialog.csd:not(.popup):not(.tooltip):not(.message-dialog) {
   margin: 0;
-  padding: 0px;
-  border: 0px solid transparent;
-  border-image-width: 0px;
-  border-radius: 0px;
+  padding: 0;
+  border: 0 solid transparent;
+  border-image-width: 0;
+  border-radius: 0;
   box-shadow: none;
-  outline: 0px solid transparent;
-  min-width: 400px;
-  min-height: 400px;
+  outline: 0 solid transparent;
+  outline-offset: 0;
+  transition-delay: 0s;
+  transition-duration: 0s;
+  transition-property: none;
+  transition-timing-function: linear;
 }
 
-window.background.ssd.maximized, window.background.ssd.fullscreen, window.background.ssd.tiled, window.background.ssd.tiled-top, window.background.ssd.tiled-bottom, window.background.ssd.tiled-left, window.background.ssd.tiled-right, window.background.solid-csd.maximized, window.background.solid-csd.fullscreen, window.background.solid-csd.tiled, window.background.solid-csd.tiled-top, window.background.solid-csd.tiled-bottom, window.background.solid-csd.tiled-left, window.background.solid-csd.tiled-right, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).maximized, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).fullscreen, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-top, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-bottom, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-left, window.background.csd:not(.popup):not(.tooltip):not(.message-dialog).tiled-right {
-  margin: 0;
-  padding: 0px;
-  border: 0px solid transparent;
-  border-radius: 0px;
-  box-shadow: none;
-  outline: 0px solid transparent;
-  min-width: 400px;
-  min-height: 400px;
-}
-
-window.background.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+.csd window:not(.popup):not(.tooltip):not(.message-dialog), window.csd:not(.popup):not(.tooltip):not(.message-dialog), .csd dialog:not(.popup):not(.tooltip):not(.message-dialog),
+dialog.csd:not(.popup):not(.tooltip):not(.message-dialog) {
   margin: -12px;
+  min-width: 400px;
+  min-height: 400px;
 }
 
-window.background.solid-csd headerbar.titlebar,
-window.background.solid-csd paned.titlebar,
-window.background.solid-csd .titlebar,
-window.background.solid-csd paned.titlebar headerbar, window.background.solid-csd.maximized headerbar.titlebar,
-window.background.solid-csd.maximized paned.titlebar,
-window.background.solid-csd.maximized .titlebar,
-window.background.solid-csd.maximized paned.titlebar headerbar, window.background.solid-csd.fullscreen headerbar.titlebar,
-window.background.solid-csd.fullscreen paned.titlebar,
-window.background.solid-csd.fullscreen .titlebar,
-window.background.solid-csd.fullscreen paned.titlebar headerbar, window.background.solid-csd.tiled headerbar.titlebar,
-window.background.solid-csd.tiled paned.titlebar,
-window.background.solid-csd.tiled .titlebar,
-window.background.solid-csd.tiled paned.titlebar headerbar, window.background.solid-csd.tiled-top headerbar.titlebar,
-window.background.solid-csd.tiled-top paned.titlebar,
-window.background.solid-csd.tiled-top .titlebar,
-window.background.solid-csd.tiled-top paned.titlebar headerbar, window.background.solid-csd.tiled-bottom headerbar.titlebar,
-window.background.solid-csd.tiled-bottom paned.titlebar,
-window.background.solid-csd.tiled-bottom .titlebar,
-window.background.solid-csd.tiled-bottom paned.titlebar headerbar, window.background.solid-csd.tiled-left headerbar.titlebar,
-window.background.solid-csd.tiled-left paned.titlebar,
-window.background.solid-csd.tiled-left .titlebar,
-window.background.solid-csd.tiled-left paned.titlebar headerbar, window.background.solid-csd.tiled-right headerbar.titlebar,
-window.background.solid-csd.tiled-right paned.titlebar,
-window.background.solid-csd.tiled-right .titlebar,
-window.background.solid-csd.tiled-right paned.titlebar headerbar {
-  border-radius: 0px 0px 0px 0px;
+window.solid-csd headerbar.titlebar,
+window.solid-csd paned.titlebar,
+window.solid-csd .titlebar,
+window.solid-csd paned.titlebar headerbar, window.solid-csd.maximized headerbar.titlebar,
+window.solid-csd.maximized paned.titlebar,
+window.solid-csd.maximized .titlebar,
+window.solid-csd.maximized paned.titlebar headerbar, window.solid-csd.fullscreen headerbar.titlebar,
+window.solid-csd.fullscreen paned.titlebar,
+window.solid-csd.fullscreen .titlebar,
+window.solid-csd.fullscreen paned.titlebar headerbar, window.solid-csd.tiled headerbar.titlebar,
+window.solid-csd.tiled paned.titlebar,
+window.solid-csd.tiled .titlebar,
+window.solid-csd.tiled paned.titlebar headerbar, window.solid-csd.tiled-top headerbar.titlebar,
+window.solid-csd.tiled-top paned.titlebar,
+window.solid-csd.tiled-top .titlebar,
+window.solid-csd.tiled-top paned.titlebar headerbar, window.solid-csd.tiled-bottom headerbar.titlebar,
+window.solid-csd.tiled-bottom paned.titlebar,
+window.solid-csd.tiled-bottom .titlebar,
+window.solid-csd.tiled-bottom paned.titlebar headerbar, window.solid-csd.tiled-left headerbar.titlebar,
+window.solid-csd.tiled-left paned.titlebar,
+window.solid-csd.tiled-left .titlebar,
+window.solid-csd.tiled-left paned.titlebar headerbar, window.solid-csd.tiled-right headerbar.titlebar,
+window.solid-csd.tiled-right paned.titlebar,
+window.solid-csd.tiled-right .titlebar,
+window.solid-csd.tiled-right paned.titlebar headerbar, .solid-csd window headerbar.titlebar,
+.solid-csd window paned.titlebar,
+.solid-csd window .titlebar,
+.solid-csd window paned.titlebar headerbar, .solid-csd window.maximized headerbar.titlebar,
+.solid-csd window.maximized paned.titlebar,
+.solid-csd window.maximized .titlebar,
+.solid-csd window.maximized paned.titlebar headerbar, .solid-csd window.fullscreen headerbar.titlebar,
+.solid-csd window.fullscreen paned.titlebar,
+.solid-csd window.fullscreen .titlebar,
+.solid-csd window.fullscreen paned.titlebar headerbar, .solid-csd window.tiled headerbar.titlebar,
+.solid-csd window.tiled paned.titlebar,
+.solid-csd window.tiled .titlebar,
+.solid-csd window.tiled paned.titlebar headerbar, .solid-csd window.tiled-top headerbar.titlebar,
+.solid-csd window.tiled-top paned.titlebar,
+.solid-csd window.tiled-top .titlebar,
+.solid-csd window.tiled-top paned.titlebar headerbar, .solid-csd window.tiled-bottom headerbar.titlebar,
+.solid-csd window.tiled-bottom paned.titlebar,
+.solid-csd window.tiled-bottom .titlebar,
+.solid-csd window.tiled-bottom paned.titlebar headerbar, .solid-csd window.tiled-left headerbar.titlebar,
+.solid-csd window.tiled-left paned.titlebar,
+.solid-csd window.tiled-left .titlebar,
+.solid-csd window.tiled-left paned.titlebar headerbar, .solid-csd window.tiled-right headerbar.titlebar,
+.solid-csd window.tiled-right paned.titlebar,
+.solid-csd window.tiled-right .titlebar,
+.solid-csd window.tiled-right paned.titlebar headerbar,
+dialog.solid-csd headerbar.titlebar,
+dialog.solid-csd paned.titlebar,
+dialog.solid-csd .titlebar,
+dialog.solid-csd paned.titlebar headerbar,
+dialog.solid-csd.maximized headerbar.titlebar,
+dialog.solid-csd.maximized paned.titlebar,
+dialog.solid-csd.maximized .titlebar,
+dialog.solid-csd.maximized paned.titlebar headerbar,
+dialog.solid-csd.fullscreen headerbar.titlebar,
+dialog.solid-csd.fullscreen paned.titlebar,
+dialog.solid-csd.fullscreen .titlebar,
+dialog.solid-csd.fullscreen paned.titlebar headerbar,
+dialog.solid-csd.tiled headerbar.titlebar,
+dialog.solid-csd.tiled paned.titlebar,
+dialog.solid-csd.tiled .titlebar,
+dialog.solid-csd.tiled paned.titlebar headerbar,
+dialog.solid-csd.tiled-top headerbar.titlebar,
+dialog.solid-csd.tiled-top paned.titlebar,
+dialog.solid-csd.tiled-top .titlebar,
+dialog.solid-csd.tiled-top paned.titlebar headerbar,
+dialog.solid-csd.tiled-bottom headerbar.titlebar,
+dialog.solid-csd.tiled-bottom paned.titlebar,
+dialog.solid-csd.tiled-bottom .titlebar,
+dialog.solid-csd.tiled-bottom paned.titlebar headerbar,
+dialog.solid-csd.tiled-left headerbar.titlebar,
+dialog.solid-csd.tiled-left paned.titlebar,
+dialog.solid-csd.tiled-left .titlebar,
+dialog.solid-csd.tiled-left paned.titlebar headerbar,
+dialog.solid-csd.tiled-right headerbar.titlebar,
+dialog.solid-csd.tiled-right paned.titlebar,
+dialog.solid-csd.tiled-right .titlebar,
+dialog.solid-csd.tiled-right paned.titlebar headerbar, .solid-csd dialog headerbar.titlebar,
+.solid-csd dialog paned.titlebar,
+.solid-csd dialog .titlebar,
+.solid-csd dialog paned.titlebar headerbar, .solid-csd dialog.maximized headerbar.titlebar,
+.solid-csd dialog.maximized paned.titlebar,
+.solid-csd dialog.maximized .titlebar,
+.solid-csd dialog.maximized paned.titlebar headerbar, .solid-csd dialog.fullscreen headerbar.titlebar,
+.solid-csd dialog.fullscreen paned.titlebar,
+.solid-csd dialog.fullscreen .titlebar,
+.solid-csd dialog.fullscreen paned.titlebar headerbar, .solid-csd dialog.tiled headerbar.titlebar,
+.solid-csd dialog.tiled paned.titlebar,
+.solid-csd dialog.tiled .titlebar,
+.solid-csd dialog.tiled paned.titlebar headerbar, .solid-csd dialog.tiled-top headerbar.titlebar,
+.solid-csd dialog.tiled-top paned.titlebar,
+.solid-csd dialog.tiled-top .titlebar,
+.solid-csd dialog.tiled-top paned.titlebar headerbar, .solid-csd dialog.tiled-bottom headerbar.titlebar,
+.solid-csd dialog.tiled-bottom paned.titlebar,
+.solid-csd dialog.tiled-bottom .titlebar,
+.solid-csd dialog.tiled-bottom paned.titlebar headerbar, .solid-csd dialog.tiled-left headerbar.titlebar,
+.solid-csd dialog.tiled-left paned.titlebar,
+.solid-csd dialog.tiled-left .titlebar,
+.solid-csd dialog.tiled-left paned.titlebar headerbar, .solid-csd dialog.tiled-right headerbar.titlebar,
+.solid-csd dialog.tiled-right paned.titlebar,
+.solid-csd dialog.tiled-right .titlebar,
+.solid-csd dialog.tiled-right paned.titlebar headerbar {
+  border-radius: 0 0 0 0;
 }
