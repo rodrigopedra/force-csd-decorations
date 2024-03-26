@@ -1,69 +1,111 @@
-@import "gtk-4-colors";
+@import "gtk-colors";
 
-window,
-dialog {
+window {
     &,
     &.unified,
-    .unified &,
     &.ssd,
-    .ssd &,
-    &.solid-csd,
-    .solid-csd &,
-    .csd &:not(.popup):not(.tooltip):not(.message-dialog),
-    &.csd:not(.popup):not(.tooltip):not(.message-dialog) {
+    &.solid-csd {
         &,
-        .maximized &,
-        &.maximized,
-        &.fullscreen,
-        .fullscreen &,
-        &.tiled,
-        .tiled &,
-        &.tiled-top,
-        .tiled-top &,
-        &.tiled-bottom,
-        .tiled-bottom &,
-        &.tiled-left,
-        .tiled-left &,
-        &.tiled-right,
-        .tiled-right & {
-            margin: 0;
-            padding: 0;
-            border: 0 solid transparent;
-            border-image-width: 0;
-            border-radius: 0;
-            box-shadow: none;
-            outline: 0 solid transparent;
-            outline-offset: 0;
+        &.background,
+        &.dialog,
+        &.dialog.print,
+        &.dialog.message,
+        &.assistant,
+        &.aboutdialog,
+        &.devel {
+            &,
+            &.maximized,
+            &.fullscreen,
+            &.tiled,
+            &.tiled-top,
+            &.tiled-bottom,
+            &.tiled-left,
+            &.tiled-right {
+                &,
+                &:backdrop {
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    border-image-width: 0;
+                    border-radius: 0;
+                    box-shadow: none;
+                    outline: none;
+                    outline-offset: 0;
 
-            transition-delay: 0s;
-            transition-duration: 0s;
-            transition-property: none;
-            transition-timing-function: linear;
+                    transition-delay: 0s;
+                    transition-duration: 0s;
+                    transition-property: none;
+                    transition-timing-function: linear;
+                }
+
+                headerbar.titlebar,
+                paned.titlebar,
+                .titlebar,
+                paned.titlebar headerbar {
+                    border-radius: 0;
+                }
+            }
         }
     }
 
-    .csd &:not(.popup):not(.tooltip):not(.message-dialog),
-    &.csd:not(.popup):not(.tooltip):not(.message-dialog) {
-        margin: -12px;
-        min-width: 400px;
-        min-height: 400px;
-    }
-
-    &.solid-csd,
-    .solid-csd & {
+    &.csd {
         &,
-        &.maximized,
-        &.fullscreen,
-        &.tiled,
-        &.tiled-top,
-        &.tiled-bottom,
-        &.tiled-left,
-        &.tiled-right {
-            headerbar.titlebar,
-            paned.titlebar,
-            .titlebar,
-            paned.titlebar headerbar {
-                border-radius: 0 0 0 0;
+        &.background,
+        &.assistant,
+        &.aboutdialog,
+        &.devel {
+            &,
+            &.maximized,
+            &.fullscreen,
+            &.tiled,
+            &.tiled-top,
+            &.tiled-bottom,
+            &.tiled-left,
+            &.tiled-right {
+                &,
+                &:backdrop {
+                    padding: 0;
+                    border: none;
+                    border-image-width: 0;
+                    border-radius: 0;
+                    box-shadow: none;
+                    outline: none;
+                    outline-offset: 0;
+
+                    transition-delay: 0s;
+                    transition-duration: 0s;
+                    transition-property: none;
+                    transition-timing-function: linear;
+                }
+
+                headerbar.titlebar,
+                paned.titlebar,
+                .titlebar,
+                paned.titlebar headerbar {
+                    border-radius: 0;
+                }
+            }
+
+            &,
+            &.tiled,
+            &.tiled-top,
+            &.tiled-bottom,
+            &.tiled-left,
+            &.tiled-right {
+                &,
+                &:backdrop {
+                    margin: -12px;
+                    min-width: 400px;
+                    min-height: 400px;
+                }
+            }
+
+            &.maximized,
+            &.fullscreen {
+                &,
+                &:backdrop {
+                    margin: 0;
+                }
             }
         }
     }

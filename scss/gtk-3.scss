@@ -1,4 +1,4 @@
-@import "gtk-3-colors";
+@import "gtk-colors";
 
 window,
 dialog {
@@ -9,11 +9,11 @@ dialog {
     &.solid-csd,
     &.csd {
         &,
-        .maximized &,
         .fullscreen &,
+        .maximized &,
         .tiled & {
             &,
-            decoration {
+            decoration, decoration:backdrop {
                 margin: 0;
                 padding: 0;
                 border: 0 solid transparent;
@@ -34,6 +34,20 @@ dialog {
             .titlebar,
             paned.titlebar headerbar {
                 border-radius: 0;
+            }
+            .titlebar:not(headerbar) {
+                padding: 0;
+                border-style: none;
+                border-color: transparent;
+            }
+        }
+
+        &.background:not(.tiled):not(.maximized) {
+            .titlebar, .titlebar:backdrop {
+                border-bottom-left-radius: 0;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
             }
         }
     }
